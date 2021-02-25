@@ -10,10 +10,10 @@ import (
 )
 
 func main() {
-	testSharding()
+	//testSharding()
 	//testConsistentHash()
-	/*testCluster()
-	time.Sleep(time.Duration(100)*time.Second)*/
+	testCluster()
+	time.Sleep(time.Duration(100) * time.Second)
 	/*client:=getClient()
 	multiResult,_:=client.Multi()
 	fmt.Println("开启事务：",multiResult)
